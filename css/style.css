@@ -32,13 +32,16 @@ p,h1{
     float: left;
 
 }
-
+.row{
+    width: 100%;
+}
 .col{
     width: calc(100% / 3 );
 
 }
 .immagine{
-    width: 100px;
+    width: auto;
+    
 }
 .immagine, .descrizione{
     float: left;
