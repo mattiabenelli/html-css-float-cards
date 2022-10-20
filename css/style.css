@@ -4,5 +4,24 @@
     box-sizing: border-box;
     font-family: 'Fredoka One', cursive;
     font-family: 'Roboto', sans-serif;
-    background-color: aquamarine;
+}
+/* utilities */
+.contenitore{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* header */
+p{
+    font-family: Roboto;
+    font-size: 20px;
+}
+h1{
+    font-family: Fredoka one;
+    margin: 40px 0 60px;
+    font-size: 40px;
+    color: rgba(229,49,112,255);
+}
+p,h1{
+    text-align: center;
 }
