@@ -25,3 +25,22 @@ h1{
 p,h1{
     text-align: center;
 }
+
+/* main */
+.row, .col{
+    border: solid red 1px;
+    float: left;
+
+}
+
+.col{
+    width: calc(100% / 3 );
+
+}
+.immagine{
+    width: 100px;
+}
+.immagine, .descrizione{
+    float: left;
+    
+}
