@@ -37,13 +37,29 @@ p,h1{
 }
 .col{
     width: calc(100% / 3 );
-
+    background-color: rgba(15,14,23,255);
+}
+div.immagine img{
+    width: 100px;
 }
 .immagine{
     width: auto;
-    
+}
+.descrizione{
+    margin: 10px;
+    line-height: 1.5;
 }
 .immagine, .descrizione{
     float: left;
-    
 }
+h3{
+    font-family: Fredoka One;
+}
+h3, .professione{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: rgba(27,126,202,255);
+}
+
