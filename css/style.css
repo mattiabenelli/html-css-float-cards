@@ -9,6 +9,7 @@
 .contenitore{
     width: 80%;
     margin: 0 auto;
+    border: 1px solid red;
 }
 
 /* header */
@@ -27,26 +28,27 @@ p,h1{
 }
 
 /* main */
-.row, .col{
+/* .row, .col, .card{
     border: solid red 1px;
-    float: left;
-
-}
-.row{
-    width: 100%;
-}
+} */
 .col{
     width: calc(100% / 3 );
+    float: left;
+    padding: 0 10px;
+}
+.card{
+    height: 100%;
     background-color: rgba(15,14,23,255);
+    margin: 50px 0 20px;
 }
 div.immagine img{
-    width: 100px;
+    height: 100px;
 }
 .immagine{
     width: auto;
 }
 .descrizione{
-    margin: 10px;
+    margin: 20px 10px 0px;
     line-height: 1.5;
 }
 .immagine, .descrizione{
@@ -62,4 +64,8 @@ a{
     text-decoration: none;
     color: rgba(27,126,202,255);
 }
-
+.clearfix::after{
+    clear: both;
+    content: '';
+    display: table;
+}
